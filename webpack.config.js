@@ -10,7 +10,7 @@ module.exports = {
     filename: 'main.js',
   },
   plugins: [new MiniCssExtractPlugin({
-    filename: '[name].css',
+    filename: 'style.css',
   })],
   module: {
     rules: [
