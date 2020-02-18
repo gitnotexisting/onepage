@@ -2,28 +2,21 @@ body {
     margin: 0 auto;
 }
 
-div {
-    color: green;
-}
-
-a {
-    color: red;
-}
-
-span {
-    color: saddlebrown;
-}
-
-p {
-    color: skyblue;
-}
-
 // COLORS
 
 // FONTS
-$roboto: roboto, sans-serif;
 
 // FONTS WEIGHT
 $light: 300;
 $regular: 400;
 $bold: 700;
+
+//--- Site structure block --- //
+
+// Page-header
+@import "src/sass/site-structure/page-header/page-header.scss";
+
+// Page-footer
+@import "src/sass/site-structure/page-footer/page-footer.scss";
+
+// Site moduls block
